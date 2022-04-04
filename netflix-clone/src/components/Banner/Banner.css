@@ -1,13 +1,13 @@
 .banner{
     position: relative;
-    height: 90vh;
+    height: 70vh;
     color: white;
     object-fit: contain;
 }
 
 .banner__contents{
     position: absolute;
-    bottom: 20em;
+    bottom: 10em;
     margin-left: 30px;
     padding-top: 100px;
     height: 190px;
