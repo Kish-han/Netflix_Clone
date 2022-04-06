@@ -39,3 +39,26 @@
     right: 20px;
     cursor: pointer;
 }
+
+.signout{
+    color: #fff;
+    
+    position: fixed;
+    right: 10px;
+    top: -100px;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 5px 8px;
+    font-size: 10px;
+    cursor: pointer;
+    transition:0s .8s;
+    text-align: center;
+}
+
+.nav__avatar:hover ~ .signout{
+    top: 50px;
+    font-weight: 500;
+    transition:0s;
+}
+
+
+
